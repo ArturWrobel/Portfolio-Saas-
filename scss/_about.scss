@@ -28,7 +28,9 @@
   
       .text-secondary {
         padding-bottom: 1rem;
+      
       }
+      
     }
   
     .jobs {
@@ -48,8 +50,16 @@
         }
         h6 {
           margin: 0.3rem 0;
+          color: yellowgreen;
+        }
+        li {
+          margin: 0 2rem;
         }
       }
+    }
+
+    .text-again {
+      font-weight: 900
     }
   
     .social-icons {
