@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.7)), to(rgba(39, 39, 39, 0.3))), url("../img/dwa.jpg") no-repeat left fixed, url("../img/trzy.jpg") no-repeat right fixed, url("../img/jeden.jpg") no-repeat center fixed;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.3)), url("../img/dwa.jpg") no-repeat left fixed, url("../img/trzy.jpg") no-repeat right fixed, url("../img/jeden.jpg") no-repeat center fixed;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.7)), to(rgba(39, 39, 39, 0.2))), url("../img/dwa.jpg") no-repeat left fixed, url("../img/trzy.jpg") no-repeat right fixed, url("../img/jeden.jpg") no-repeat center fixed;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.2)), url("../img/dwa.jpg") no-repeat left fixed, url("../img/trzy.jpg") no-repeat right fixed, url("../img/jeden.jpg") no-repeat center fixed;
   background-size: auto 100%;
 }
 
@@ -192,8 +192,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.9))), url("../img/Canary_Wharf.jpg") center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.9)), url("../img/Canary_Wharf.jpg") center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.9))), url("../img/Canary_Wharf.jpg") center;
+  background: linear-gradient(to bottom, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.9)), url("../img/Canary_Wharf.jpg") center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,9 +243,9 @@
   margin: 0.5rem 0;
 }
 
-.about .jobs__job h6 {
+.about .jobs__job h5 {
   margin: 0.3rem 0;
-  color: yellowgreen;
+  color: #f6f45c;
 }
 
 .about .jobs__job li {
@@ -278,8 +278,8 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/abstract.jpg") center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/abstract.jpg") center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 39, 39, 0.1)), to(rgba(39, 39, 39, 0.6))), url("../img/abstract.jpg") center;
+  background: linear-gradient(to bottom, rgba(39, 39, 39, 0.1), rgba(39, 39, 39, 0.6)), url("../img/abstract.jpg") center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,8 +400,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.5))), url("../img/jeden.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.5)), url("../img/jeden.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.3))), url("../img/jeden.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.3)), url("../img/jeden.jpg") center top;
   background-size: cover;
 }
 

@@ -6,7 +6,7 @@
       width: 100%;
       background: 
         linear-gradient(
-          to right,
+          to bottom,
           rgba($primary-color, 0.5),
           rgba($primary-color, 0.9)
         ),
@@ -48,9 +48,9 @@
         h2, h3 {
           margin: 0.5rem 0;
         }
-        h6 {
+        h5 {
           margin: 0.3rem 0;
-          color: yellowgreen;
+          color: rgb(246, 244, 92);
         }
         li {
           margin: 0 2rem;
