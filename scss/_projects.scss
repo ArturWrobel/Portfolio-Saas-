@@ -7,10 +7,11 @@
       background: 
         linear-gradient(
           to bottom,
-          rgba($primary-color, 0.1),
-          rgba($primary-color, 0.6)
+          rgba($primary-color, 0.5),
+          rgba($primary-color, 0.9)
         ),
-        url('../img/abstract.jpg') center;
+        /*url('../img/abstract.jpg') center */
+        #FF6352;
       background-size: cover;
       display: flex;
       flex-direction: column;
@@ -19,7 +20,7 @@
   
       .text-secondary {
         font-size: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
       }
     }
   
@@ -29,13 +30,16 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 2rem;
+      color: #803129;
     }
   
     &__item {
       position: relative;
-      border-bottom: 5px solid $secondary-color;
+      border-bottom: 5px solid #803129;
       overflow: hidden;
       cursor: pointer;
+      text-align: center;
+      font-weight: 700;
      
       
       img {
@@ -49,7 +53,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background: $secondary-color;
+        background: #FFA89E;
         opacity: 0;
         @include transition-ease;
       }

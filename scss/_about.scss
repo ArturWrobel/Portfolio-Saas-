@@ -10,7 +10,8 @@
           rgba($primary-color, 0.5),
           rgba($primary-color, 0.9)
         ),
-        url('../img/Canary_Wharf.jpg') center;
+        /* url('../img/Canary_Wharf.jpg') center */
+        #FF6352;
       background-size: cover;
       display: flex;
       flex-direction: column;
@@ -41,16 +42,23 @@
       grid-gap: 2rem;
   
       &__job {
-        background: lighten($primary-color, 10%);
+        background: lighten(#b89b98, 10%);
         padding: 0.5rem;
-        border-bottom: 5px solid $secondary-color;
-  
+        border-bottom: 5px solid #803129;
+        
+h2{
+
+  color: #803129;
+}
+
         h2, h3 {
           margin: 0.5rem 0;
         }
-        h5 {
+
+        h4 {
           margin: 0.3rem 0;
-          color: rgb(246, 244, 92);
+          color: $secondary-color;
+          font-weight: 700;
         }
         li {
           margin: 0 2rem;
