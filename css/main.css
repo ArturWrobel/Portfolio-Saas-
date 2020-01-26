@@ -13,8 +13,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.7)), to(rgba(39, 39, 39, 0.2))), url("../img/dwa.jpg") no-repeat left fixed, url("../img/trzy.jpg") no-repeat right fixed, url("../img/jeden.jpg") no-repeat center fixed;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.2)), url("../img/dwa.jpg") no-repeat left fixed, url("../img/trzy.jpg") no-repeat right fixed, url("../img/jeden.jpg") no-repeat center fixed;
+  background: radial-gradient(rgba(75, 68, 83, 0.6), rgba(75, 68, 83, 0.4), rgba(75, 68, 83, 0.95)), url("../img/dwa.jpg") no-repeat left fixed, url("../img/trzy.jpg") no-repeat right fixed, url("../img/jeden.jpg") no-repeat center fixed;
   background-size: auto 100%;
 }
 
@@ -68,7 +67,7 @@
   content: '';
   position: absolute;
   top: 8px;
-  width: 20px;
+  width: 28px;
   height: 3px;
   background: #fff;
   -webkit-transition: all 0.5s ease-in-out;
@@ -121,7 +120,7 @@
           justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #272727;
+  background: #4b4453;
   list-style-type: none;
   padding-right: 1rem;
   -webkit-transform: translateY(-100%);
@@ -192,8 +191,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.9))), url("../img/Canary_Wharf.jpg") center;
-  background: linear-gradient(to bottom, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.9)), url("../img/Canary_Wharf.jpg") center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 68, 83, 0.5)), to(rgba(75, 68, 83, 0.9))), #FF6352;
+  background: linear-gradient(to bottom, rgba(75, 68, 83, 0.5), rgba(75, 68, 83, 0.9)), #FF6352;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -234,18 +233,23 @@
 }
 
 .about .jobs__job {
-  background: #414141;
+  background: #cdb8b6;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #803129;
+}
+
+.about .jobs__job h2 {
+  color: #803129;
 }
 
 .about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem 0;
 }
 
-.about .jobs__job h5 {
+.about .jobs__job h4 {
   margin: 0.3rem 0;
-  color: #f6f45c;
+  color: #ff652f;
+  font-weight: 700;
 }
 
 .about .jobs__job li {
@@ -278,8 +282,8 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 39, 39, 0.1)), to(rgba(39, 39, 39, 0.6))), url("../img/abstract.jpg") center;
-  background: linear-gradient(to bottom, rgba(39, 39, 39, 0.1), rgba(39, 39, 39, 0.6)), url("../img/abstract.jpg") center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 68, 83, 0.5)), to(rgba(75, 68, 83, 0.9))), #FF6352;
+  background: linear-gradient(to bottom, rgba(75, 68, 83, 0.5), rgba(75, 68, 83, 0.9)), #FF6352;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -298,7 +302,7 @@
 
 .projects__bio-image .text-secondary {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .projects__items {
@@ -309,13 +313,16 @@
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2rem;
+  color: #803129;
 }
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #803129;
   overflow: hidden;
   cursor: pointer;
+  text-align: center;
+  font-weight: 700;
 }
 
 .projects__item img {
@@ -329,7 +336,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff652f;
+  background: #FFA89E;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -352,7 +359,7 @@
   z-index: 1;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -400,8 +407,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.3))), url("../img/jeden.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.3)), url("../img/jeden.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(75, 68, 83, 0.8)), to(rgba(75, 68, 83, 0.3))), url("../img/jeden.jpg") center top;
+  background: linear-gradient(to right, rgba(75, 68, 83, 0.8), rgba(75, 68, 83, 0.3)), url("../img/jeden.jpg") center top;
   background-size: cover;
 }
 
@@ -454,28 +461,28 @@
     font-size: 1.5rem;
   }
   .projects__bio-image {
-    height: 40vh;
+    height: 30vh;
   }
   .projects__items {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(2, 1fr);
   }
   .projects .text-secondary {
     font-size: 3rem;
   }
   .contact__list {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .projects__items {
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(3, 1fr);
   }
   .contact__list {
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -487,7 +494,7 @@
 }
 
 body {
-  background: #272727;
+  background: #EBE0D0;
   color: #fff;
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
