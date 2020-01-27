@@ -158,6 +158,7 @@
   font-weight: 400;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav .menu-nav__link:hover {
@@ -233,9 +234,13 @@
 }
 
 .about .jobs__job {
-  background: #cdb8b6;
+  background: #b59997;
   padding: 0.5rem;
   border-bottom: 5px solid #803129;
+}
+
+.about .jobs__job li {
+  font-family: 'Roboto', sans-serif;
 }
 
 .about .jobs__job h2 {
@@ -250,6 +255,8 @@
   margin: 0.3rem 0;
   color: #ff652f;
   font-weight: 700;
+  color: #d13800;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about .jobs__job li {
@@ -441,6 +448,7 @@
   }
   .nav {
     visibility: visible;
+    font-family: 'Roboto', sans-serif;
   }
   .nav .menu-nav {
     display: block;
@@ -497,7 +505,7 @@ body {
   background: #EBE0D0;
   color: #fff;
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Concert One', cursive, Arial, Helvetica, sans-serif;
   line-height: 1;
 }
 
